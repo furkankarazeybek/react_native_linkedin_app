@@ -17,6 +17,7 @@
     "ios": {
       "supportsTablet": true
     },
+    "scheme" : "linkedin-yt",
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
